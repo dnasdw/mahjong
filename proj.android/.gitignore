@@ -8,3 +8,6 @@
 /build
 /captures
 /.externalNativeBuild
+app/obj/local/
+app/libs/armeabi-v7a/libMyGame.so
+
