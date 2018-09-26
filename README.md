@@ -2,6 +2,7 @@
 
 #### 项目介绍
 基于最新版 Cocos2d-X 3.17 与 cocostudio V3.10 开发的单机麻将游戏，麻将算法为商业级麻将服务器端算法，整个项目代码精简、注释详细。
+可以运行于iOS，Mac，Android，Windows平台。
 
 - 如果你刚刚接触Cocos2d-X 这绝对是个不错的入门项目
 - 如果是你C++初学者或者其他语言转游戏开发，这项目没有复杂的语法绝对是一个不错的学习项目
@@ -20,23 +21,26 @@
 * 游戏使用C++开发
 * 商业级麻将算法
 
+#####  关于 cocos2d-x-3.17
+* 由于cocos2dx源码比较庞大，git 上不包括Cocos2d-X 3.17的完整源码, cocos2d目录里面是一个精简版的，不想下载完整版的可以直接用它，本游戏用它足矣。
+* 精简内容：去掉了 3D，Physics，VR，Network，Box2D，chipmunk，scripting，spine，cocosbuilder等相关的代码和库。
+* 编译结果：精简版的cocos2d编译出来的so文件与完整版相比要小8M，因为少了很多文件编译速度也大大加快。
+
 ##### 相关下载：
 
-* [cocos2d-x-3.17下载](http://www.cocos2d-x.org/filedown/cocos2d-x-3.17.zip)
-* [Windows版本下载，CocosForWin-v3.10.exe](http://www.cocos2d-x.org/filedown/CocosForWin-v3.10.exe)
-* [MAC版本下载，CocosForMac-v3.10](http://www.cocos2d-x.org/filedown/CocosForMac-v3.10.dmg)
+* [完整版本的cocos2d-x-3.17下载](http://www.cocos2d-x.org/filedown/cocos2d-x-3.17.zip)
+* [CocoStudio Windows版本下载，CocosForWin-v3.10](http://www.cocos2d-x.org/filedown/CocosForWin-v3.10.exe)
+* [CocoStudio Mac版本下载，CocosForMac-v3.10](http://www.cocos2d-x.org/filedown/CocosForMac-v3.10.dmg)
 
 #### 安装教程
 
-1. 由于Cocos2d源码比较庞大，GIT上不包括Cocos2d-X 3.17源码，所以第一步需要下载并且安装 [cocos2d-x-3.17](http://www.cocos2d-x.org/filedown/cocos2d-x-3.17.zip) 安装说明移驾 [最新版本Cocos2d-X V3.17开发环境搭建](https://www.xiyoufang.com/archives/183) 安装好后使用命令行创建个新项目，将项目里的cocos2d文件夹拷到本项目下，
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0706/131106_5add28c6_369917.png "WX20180706-130947.png")
-2. 下载安装好Cocostudio3.10，打开UI.ccs文件即可编辑和发布UI
+1. 下载并且安装好CocoStudio3.10，打开UI.ccs文件即可编辑和发布UI
 ![UI编辑器](https://images.gitee.com/uploads/images/2018/0706/105227_36709445_369917.png "WX20180706-105153.png")
-3. MAC直接用Xcode 或者AppCode 直接打开 proj.ios_mac 即可运行
+2. MAC直接用Xcode 或者AppCode 直接打开 proj.ios_mac 即可运行
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0706/125845_3a993ad4_369917.jpeg "WX20180706-125720.jpg")
-4. AndroidStudio安装直接打开 proj.android 项目即可运行
+3. AndroidStudio安装直接打开 proj.android 项目即可运行
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0706/114443_07ff095f_369917.jpeg "WX20180706-113529.jpg")
-5. Visual Studio 安装未验证
+4. Visual Studio 建议安装VS2017，直接打开 proj.win32 下面的 solution.sln 即可运行
 
 #### 源码说明
 
