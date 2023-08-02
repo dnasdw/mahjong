@@ -6,6 +6,4 @@ Debug.Win32
 *.udf
 *.iml
 
-
-
-
+*.user
